@@ -1,0 +1,26 @@
+{
+  "jquery-random": {
+    "label": "jQuery Random",
+    "description": "Filter the current set down to a single random element.",
+    "dist": {
+      "dev": "dist/jquery.ba-random.js",
+      "prod": "dist/jquery.ba-random.min.js"
+    },
+    "license": ["MIT", "GPL"],
+    "copyright": "Copyright (c) 2011 Ben Alman",
+    "homeurl": "http://benalman.com/",
+    "versions": [
+      { "version": "0.1.0" }
+    ],
+    "jqbuild": {
+      "config": {
+        "prelint": false
+      },
+      "src": [
+        "src/intro.js",
+        "src/random.js",
+        "src/outro.js"
+      ]
+    }
+  }
+}

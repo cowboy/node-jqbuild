@@ -1,0 +1,5 @@
+{
+  "banner": "// This banner will be used for all plugins in plugin.json!\n// {{.label}} - v{{.versions[0].version}}\n// {{.copyright}}; Licensed {{.license.join(', ')}}"
+}
+
+

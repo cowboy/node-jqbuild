@@ -1,0 +1,31 @@
+{
+  "name": "jqbuild",
+  "version": "0.1.0",
+  "description": "A command line build tool for jQuery plugins.",
+  "keywords": [
+    "cli",
+    "cowboy",
+    "jquery",
+    "plugin"
+  ],
+  "homepage": "http://github.com/cowboy/node-jqbuild",
+  "author": "\"Cowboy\" Ben Alman <plugins@benalman.com> (http://benalman.com/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cowboy/node-jqbuild.git"
+  },
+  "dependencies": {
+    "colors": "~0.5.0",
+    "dateformat": "1.0.1-1.2.3",
+    "jshint": "~0.2.2",
+    "nopt": "~1.0.5",
+    "pkginfo": "~0.2.1",
+    "uglify-js": "~1.0.2",
+    "zlib": "~1.0.2"
+  },
+  "bin": "./bin/jqbuild",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "preferGlobal": true
+}
